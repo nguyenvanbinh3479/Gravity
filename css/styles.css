@@ -1,0 +1,34 @@
+#envelop {
+  overflow: hidden; }
+  #envelop #header {
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+    overflow: hidden; }
+  #envelop #content {
+    overflow: hidden; }
+    #envelop #content .one {
+      overflow: hidden;
+      width: 100%;
+      height: 100px;
+      background-color: red; }
+    #envelop #content .two {
+      overflow: hidden; }
+      #envelop #content .two .left {
+        overflow: hidden;
+        width: 20%;
+        height: 900px;
+        background-color: yellow;
+        float: left; }
+      #envelop #content .two .right {
+        overflow: hidden;
+        width: 80%;
+        height: 900px;
+        background-color: green;
+        float: left; }
+  #envelop #footer {
+    overflow: hidden;
+    background-color: #0048FF;
+    height: 200px; }
+
+/*# sourceMappingURL=styles.css.map */
